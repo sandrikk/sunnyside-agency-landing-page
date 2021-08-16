@@ -1,0 +1,88 @@
+// GENERAL
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+svg {
+    &:hover {
+        path {
+            fill: $white;
+        }
+    }
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.button {
+    padding: 0.9375rem 1.875rem;
+    margin-top: 0.625rem;
+    background-color: $yellow;
+    display: inline;
+    border-radius: 2.1875rem;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    color: #000;
+}
+
+// Flexbox
+.flex {
+    display: flex;
+    
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-jc-sa {
+        justify-content: space-around;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+
+}
+
+
+// DESKTOP VERSION
+.desktop {
+    display: none;
+}
+
+
+
+

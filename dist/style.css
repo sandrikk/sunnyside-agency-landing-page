@@ -87,7 +87,7 @@ svg:hover path {
 }
 
 .header {
-  background-image: url("/images/mobile/image-header.jpg");
+  background-image: url("https://sandrikk.github.io/sunnyside-agency-landing-page/images/mobile/image-header.jpg");
   height: 33.625rem;
   width: 100%;
   background-position: center center;
@@ -261,7 +261,7 @@ svg:hover path {
 
 .main .graphic {
   position: relative;
-  background-image: url("/images/mobile/image-graphic-design.jpg");
+  background-image: url("https://sandrikk.github.io/sunnyside-agency-landing-page/images/mobile/image-graphic-design.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,7 +292,7 @@ svg:hover path {
 
 .main .photography {
   position: relative;
-  background-image: url("/images/mobile/image-photography.jpg");
+  background-image: url("https://sandrikk.github.io/sunnyside-agency-landing-page/images/mobile/image-photography.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +415,7 @@ svg:hover path {
 @media screen and (min-width: 540px) {
   .header {
     background-position: center bottom;
-    background-image: url("/images/desktop/image-header.jpg");
+    background-image: url("https://sandrikk.github.io/sunnyside-agency-landing-page/images/desktop/image-header.jpg");
   }
   .header h1 {
     padding: 0 1.25rem;
@@ -425,10 +425,10 @@ svg:hover path {
     padding: 7rem 5rem;
   }
   .main .photography {
-    background-image: url("/images/desktop/image-photography.jpg");
+    background-image: url("https://sandrikk.github.io/sunnyside-agency-landing-page/images/desktop/image-photography.jpg");
   }
   .main .graphic {
-    background-image: url("/images/desktop/image-graphic-design.jpg");
+    background-image: url("https://sandrikk.github.io/sunnyside-agency-landing-page/images/desktop/image-graphic-design.jpg");
   }
 }
 
